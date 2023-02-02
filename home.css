@@ -1,0 +1,247 @@
+body{
+    overflow-x: hidden;
+}
+#invisible{
+    color: #111;
+}
+/* ---------------------------------------navbar------------------------------------------ */
+.navbar{
+    width: 25%;
+    height: 100%;
+    position: fixed;
+    background-color: #1a1a1a;
+    top: 0;
+    left: 0;
+}
+.user{
+    top: 0;
+    left: 0;
+    width: 22%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    position: fixed;
+    background: #1a1a1a;
+}
+#name{
+    color: white;
+}
+#fd{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+#veda{
+    margin-top: 40px;
+    border: 4px solid #c5aa10;
+    width: 120px;
+    height: 130px;
+    border-radius: 50%;
+
+}
+ul{
+    margin: 40px;
+}
+li{
+    top: 0;
+    text-align: center  ;
+    padding: 8px;
+    margin: 15px;
+    list-style: none;
+    text-decoration: none;
+ 
+}
+ul li a{
+    top: 0;
+    font-weight: 30px;
+    font-size: 20px;
+    margin-left: 60px;
+    margin-right: 90px;
+    list-style: none;    
+    border: 2px solid#2a2a2a;
+    padding: 8px 80px;
+    border-radius: 250px;
+    background-color: #2a2a2a; 
+    text-decoration: none;
+    color: white;
+}
+#education
+{
+    padding: 8px 67px;
+}
+#portfolio, #contact{
+    padding: 8px 73px;
+}
+ul li a:hover{
+    background-color: #c5aa10;
+    
+}
+.smedia{
+    display: flex;
+}
+.smedia a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.smedia a:hover{
+    color: white;
+    background-color:#c5aa10 ;
+}
+/* --------------------------------------------Home------------------------------------------ */
+
+section{
+    top: 0px;
+    left: 0px;
+    
+    margin-left: 0%;
+    width: 75vw;
+    height: 100vh;
+}
+.container{
+
+    margin-left: 25%;
+    position: absolute;
+    background-color: #111;
+    top: 0;
+    left: 0;
+}
+.mainhome{
+    width: 75%;
+    background-color: #111;
+    margin-left: 15%;
+    margin-top: 15%;
+    top: 0;
+    left: 0;
+
+}
+span{
+    color: #c5aa10;
+}
+.content{
+    width: 70%;
+    height: 40%;
+    margin: 15%;
+}
+h3,h1,p{
+    color: white;
+}
+#aboutme{
+    background-color: #2a2a2a;
+    color: white;
+    padding: 13px;
+    width: 30%;
+    border-radius: 40px;
+    font-size: 20px;
+    border: none;
+}
+#aboutme:hover{
+    background-color: #c5aa10;
+}
+/* -----------------------------------------------about---------------------------------- */
+.heading{
+    width: 75%;
+    background-color: #111;
+  
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+hr{
+    margin-left: 10%;
+    width: 100%;
+    background-color: #1a1a1a;
+}
+.aboutcol50{
+    width: 35%;
+    height: 40%;
+    margin-left: 7%;
+    font-weight: 2px;
+}
+h5{
+    color: white;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.subabout{
+    display: flex;
+    width: 80%;
+}
+.counter{
+    width: 60%;
+    display: flex;
+}
+.box{
+    text-align: center;
+    justify-content: center;
+
+    width: 10vw;
+    height: 15vh;
+    background-color: #2a2a2a;
+    margin: 30px;
+    padding: 20px;
+}
+h4{
+    color: white;
+}
+#box{
+    color: #c5aa10;
+    font-size: 30px;
+}
+/* ----------------------------------------contact------------------------------- */
+#contactheading{
+    margin-top: 30%;
+    color: white;
+}
+.aboutcol50 a{
+    
+    color: #c5aa10;
+    text-decoration: none;
+}
+.concounter{
+    
+    width: 60%;
+    height: 80vh;
+}
+.concounter input{
+    width: 95%;
+    border: none;
+    margin: 10px;
+    color: white;
+    height: 10%;
+    background-color: #2a2a2a;
+}
+.concounter textarea{
+    width: 95%;
+    height: 30%;
+    background-color: #2a2a2a;
+    color: white;
+    margin: 10px;
+    border: none;
+}
+.concounter li{
+    left: 0;
+}
+.concounter li a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    margin-left: -65%;
+    /* border: 2px solid white; */
+    background-color: #2a2a2a;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-radius: 30px;
+}
+#sendme:hover{
+    background-color: #c5aa10;
+    color: white;
+
+}
